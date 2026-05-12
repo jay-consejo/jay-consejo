@@ -1,6 +1,6 @@
 # Jay Consejo
 
-> **Solo Full-Stack AI-First Builder · Taguig, PH**
+> **Full-Stack AI-First Builder · Taguig, PH**
 > I ship production AI, Web3, and voice-agent products end-to-end. Remote for US & AU teams.
 
 <p align="left">
@@ -13,18 +13,18 @@
 
 | Project | What it is | Status |
 |---------|------------|--------|
-| **ALEX** | Self-hosted AI CTO running as a 5-entity constellation. Joins meetings over WebRTC (Pipecat + Gemini Live), RAGs my project state (ChromaDB + ONNX), runs my Slack + calendar + email. Coordinates with ATHENA via a versioned correspondence vault. Python 3.11 + FastAPI + Claude (multi-tier routing). | In flight |
-| **ATHENA** | Self-hosted multi-agent dev substrate — 18 agents across Engineering, Marketing, Creative teams running an autonomous planner → coder → reviewer pipeline. Cross-model reviewer rule (reviewer ≠ coder family). Peer to ALEX. | In flight |
-| **Murmura Studio** | AI video production for YouTube creators. Next.js 16 + Vercel AI SDK 6 + Remotion 4 + Anthropic/Gemini + ElevenLabs. | Live |
-| **Sofia** ([talk to her](https://jayconsejo.com)) | ElevenLabs voice agent on my homepage — takes calls, qualifies, and books real meetings on my calendar. Dual-persona setup shares a prompt vault with the EA voice on Pipecat. | Live |
+| **ALEX** | Self-hosted AI CTO running as a 5-entity agent constellation. Joins meetings, speaks in real-time over WebRTC, manages calendar + Slack + email, RAGs project state across active projects. Coordinates with ATHENA via a versioned correspondence vault. Operator inbox surfaces decisions, asks, and plain-English digests. | In flight |
+| **ATHENA** | Self-hosted multi-agent dev substrate — 18 specialized agents across Engineering, Marketing, Creative running an autonomous planner → coder → reviewer pipeline. Operates as a peer node in the ALEX constellation: receives sprint tickets, fires the cascade, opens PRs. First production sprint shipped in 7 sessions. | In flight |
+| **Murmura Studio** | AI-powered video production for YouTube creators. Automates the full content pipeline — research, scripting, voiceover, rendering, and publishing. | Live |
+| **Sofia** ([talk to her](https://jayconsejo.com)) | ElevenLabs voice agent on my homepage. Takes calls, qualifies leads, and books real meetings on my calendar. Dual-persona setup shares a prompt vault with the EA voice on Pipecat. | Live |
 
 ## 🚢 Recent ships
 
 | Project | What | Notable stack |
 |---------|------|---------------|
-| **Provly** | On-chain campaign verification on Base mainnet — escrow + attestation NFTs for brand × creator deals. | `Solidity 0.8.27` · `Hardhat` · `OpenZeppelin v5` · `tRPC 11` · `Wagmi 2` · `SIWE` |
-| [**Decoded Daily News**](https://dailydecoded.news) | AI-personalized daily news digest across 40+ sources. Multi-provider LLM cascade for cost/latency routing. | `FastAPI` · `Vertex AI` · `Gemini` · `Groq` · `Claude Haiku` · `Supabase RLS` |
-| [**jayconsejo.com**](https://jayconsejo.com) | Personal site + Sofia voice booking. 6 security headers, SRI-pinned widget, AI-crawler blocklist, gitleaks pre-commit, Dependabot. R2-hosted showreels (16:9 locked). | `Next.js 16` · `React 19` · `Tailwind 4` · `shadcn/ui` · `Vercel` |
+| **Provly** | On-chain campaign verification platform on Base. Brands create campaigns, creators submit proof of social content, and rewards distributed via smart contracts with cryptographic verification. | `Solidity 0.8.27` · `Hardhat` · `OpenZeppelin v5` · `tRPC 11` · `Wagmi 2` · `SIWE` |
+| [**Decoded Daily News**](https://dailydecoded.news) | AI-personalized daily news digest for professionals. 40+ sources, multi-step AI summarization, role-personalized digests delivered via email and web at 6 AM daily. | `FastAPI` · `Vertex AI` · `Gemini` · `Groq` · `Claude Haiku` · `Supabase RLS` |
+| [**jayconsejo.com**](https://jayconsejo.com) | Personal portfolio and lead-intake surface. Full SEO infrastructure, ElevenLabs ConvAI voice agent, hardened web security headers (6 headers + SRI pin + AI-crawler blocklist + gitleaks + Dependabot). | `Next.js 16` · `React 19` · `Tailwind 4` · `shadcn/ui` · `Vercel` |
 
 > Most of the code above lives in private repos for client reasons. Public demo repos coming soon — pinned here as they ship.
 
